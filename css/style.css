@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #1E1E1E;
+}
+
+.container {
+    width: 100%;
+    max-width: 1274px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    background: #1F1F1F;
+    color: #F8F7F9;
+    background-image: url('../icons/unsplash_DItYlc26zVI-removebg\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position-x: 532px;
+    background-position-y: 90px;
+}
+
+.hero-header {
+    padding-top: 32px;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.logo-wrap {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.hero-header__item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.hero-header__item:not(:last-child) {
+    margin-right: 48px;
+}
+
+.hero-header__item:last-child {
+    margin-right: 64px;
+}
+
+.v-line {
+    width: 24px;
+    height: 1px;
+    background-color: #F8F7F9;
+    transform: rotate(90deg);
+    margin-right: 64px;
+}
+
+.instagram {
+    width: 24px;
+    height: 24px;
+    margin-right: 48px;
+}
+
+.hero-center {
+    width: 510px;
+    padding: 10px;
+}
+
+.user-name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.user-title {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    margin-bottom: 16px;
+}
+
+.user-desc {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #f8f7f980;
+    margin-bottom: 42px;
+}
+
+.btn-myprojects {
+    border: none;
+    padding: 16px 32px;
+    border: 2px solid #F8F7F9;
+    border-radius: 16px;
+    background-color: transparent;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F8F7F9;
+
+}
